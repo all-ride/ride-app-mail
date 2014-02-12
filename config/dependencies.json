@@ -1,0 +1,47 @@
+{
+    "dependencies": [
+        {
+            "interfaces": "pallo\\library\\mail\\transport\\Transport",
+            "class": "pallo\\library\\mail\\transport\\SimpleTransport",
+            "id": "simple",
+            "calls": [
+                {
+                    "method": "__construct",
+                    "arguments": [
+                        {
+                            "name": "log",
+                            "type": "dependency",
+                            "properties": {
+                                "interface": "pallo\\library\\log\\Log"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "method": "setDefaultFrom",
+                    "arguments": [
+                        {
+                            "name": "from",
+                            "type": "parameter",
+                            "properties": {
+                                "key": "mail.from"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "method": "setDebugTo",
+                    "arguments": [
+                        {
+                            "name": "to",
+                            "type": "parameter",
+                            "properties": {
+                                "key": "mail.debug"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

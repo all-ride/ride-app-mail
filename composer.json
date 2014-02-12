@@ -1,0 +1,16 @@
+{
+    "name": "pallo/app-mail",
+    "description": "Integration of the mail library for a Pallo application.",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Joris Vandeweerd",
+            "email": "joris@statik.be"
+        }
+    ],
+    "require": {
+        "pallo/app": ">=0.4.0",
+        "pallo/lib-mail": ">=0.1.0"
+    }    
+}
