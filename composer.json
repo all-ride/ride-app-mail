@@ -1,6 +1,6 @@
 {
-    "name": "pallo/app-mail",
-    "description": "Integration of the mail library for a Pallo application.",
+    "name": "ride/app-mail",
+    "description": "Integration of the mail library for a Ride application.",
     "license": "MIT",
     "version": "0.1.0",
     "authors": [
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "pallo/app": ">=0.4.0",
-        "pallo/lib-mail": ">=0.1.0"
+        "ride/app": ">=0.4.0",
+        "ride/lib-mail": ">=0.1.0"
     }    
 }

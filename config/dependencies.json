@@ -1,8 +1,8 @@
 {
     "dependencies": [
         {
-            "interfaces": "pallo\\library\\mail\\transport\\Transport",
-            "class": "pallo\\library\\mail\\transport\\SimpleTransport",
+            "interfaces": "ride\\library\\mail\\transport\\Transport",
+            "class": "ride\\library\\mail\\transport\\SimpleTransport",
             "id": "simple",
             "calls": [
                 {
@@ -12,7 +12,7 @@
                             "name": "log",
                             "type": "dependency",
                             "properties": {
-                                "interface": "pallo\\library\\log\\Log"
+                                "interface": "ride\\library\\log\\Log"
                             }
                         }
                     ]
