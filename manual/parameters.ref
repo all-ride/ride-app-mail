@@ -1,0 +1,2 @@
+mail.debug              Email address to override all recipients with
+mail.from               Default from address for all sent mails
