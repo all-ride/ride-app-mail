@@ -11,6 +11,6 @@
     ],
     "require": {
         "ride/app": ">=0.4.0",
-        "ride/lib-mail": ">=0.1.0"
-    }    
+        "ride/lib-mail": ">=0.3.0"
+    }
 }

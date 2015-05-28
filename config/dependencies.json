@@ -30,6 +30,18 @@
                     ]
                 },
                 {
+                    "method": "setDefaultBcc",
+                    "arguments": [
+                        {
+                            "name": "bcc",
+                            "type": "parameter",
+                            "properties": {
+                                "key": "mail.bcc"
+                            }
+                        }
+                    ]
+                },
+                {
                     "method": "setDebugTo",
                     "arguments": [
                         {
