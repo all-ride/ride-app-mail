@@ -30,6 +30,18 @@
                     ]
                 },
                 {
+                    "method": "setDefaultReplyTo",
+                    "arguments": [
+                        {
+                            "name": "replyTo",
+                            "type": "parameter",
+                            "properties": {
+                                "key": "mail.reply"
+                            }
+                        }
+                    ]
+                },
+                {
                     "method": "setDefaultBcc",
                     "arguments": [
                         {
