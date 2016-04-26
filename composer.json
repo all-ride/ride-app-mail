@@ -2,7 +2,7 @@
     "name": "ride/app-mail",
     "description": "Integration of the mail library for a Ride application.",
     "license": "MIT",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "authors": [
         {
             "name": "Joris Vandeweerd",
@@ -11,6 +11,6 @@
     ],
     "require": {
         "ride/app": ">=0.4.0",
-        "ride/lib-mail": ">=0.3.0"
+        "ride/lib-mail": ">=0.5.0"
     }
 }

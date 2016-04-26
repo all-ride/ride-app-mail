@@ -1,2 +1,4 @@
 mail.debug              Email address to override all recipients with
 mail.from               Default from address for all sent mails
+mail.reply              Default replyTo address for all sent mails
+mail.bcc                Default BCC for all sent mails, only used when no BCC is set
